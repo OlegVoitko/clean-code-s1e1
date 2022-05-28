@@ -41,10 +41,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.edit-mode, h3 {
+.edit-mode, 
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 button {
@@ -137,7 +139,9 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+ul 
+li 
+input[type=text] {
   display: none;
 }
 
