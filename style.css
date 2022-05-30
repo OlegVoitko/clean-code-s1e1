@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-wrapper {
+.add-task__task-wrapper {
   display: flex;
 }
 #incomplete-tasks, #completed-tasks {
@@ -45,7 +45,7 @@
 h3 {
   list-style: none;
 }
-input,
+.add-task__task-item,
 button{
   outline: none;
 }
@@ -63,7 +63,7 @@ button:hover {
 }
 /* Heading */
 h3,
-.title {
+.add-task__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -89,7 +89,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.title {
+.add-task__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -111,7 +111,7 @@ li > * {
   vertical-align: middle;
 }
 
-.task-checkbox {
+.edit__task-checkbox {
   margin: 0 10px;
 }
 li > label {
